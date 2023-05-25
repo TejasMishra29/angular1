@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'shri';
+  title = 'Registration Form of PES MCOE';
+
+  dname='';
+  dadd='';
+
+  getValue(name:string,add:string)
+  {
+    this.dname=name;
+    this.dadd=add;
+  }
 }
